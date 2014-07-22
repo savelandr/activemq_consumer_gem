@@ -19,7 +19,7 @@ class ActiveMQConsumer
   end
 
   def clear_all_messages
-    while @consumer.receive_no_wait
+    while get_message(0.1)
     end
   end
 
