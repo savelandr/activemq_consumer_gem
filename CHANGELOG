@@ -1,3 +1,5 @@
+== 1.0.2 / 09-05-14
+* require 'jruby/activemq'
 == 1.0.1 / 07-22-14
 * change to clear_all_messages to more reliably clear them
 == 1.0.0 / 07-16-14

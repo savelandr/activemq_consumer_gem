@@ -1,5 +1,5 @@
 require 'java'
-require 'activemq'
+require 'jruby/activemq'
 
 # Class to connect to an ActiveMQ queue and consume messages
 class ActiveMQConsumer
